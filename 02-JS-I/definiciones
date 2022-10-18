@@ -1,0 +1,70 @@
+Variables: se utiliza para guardar el valor de un dato con la finalidad de usarlo cuando se necesite emplear dicha variable.
+
+Por ejemplo: 
+
+> var saludo = hola;
+
+Strings: Es un hilo de caracteres(letras o números) que siempre están en medio de comillas dobles o simples.
+
+por ejemplo: 
+
+> return 'hola ' + 'y' ' chao';
+
+hola y chao;
+
+Funciones: Es una operación usada para no escribir reiteradas veces el mismo código.Agrupa y guarda la función para ser usada después y así agilizar procesos o ejecuciones. 
+
+por ejemplo: 
+
+> function miFunción(argumentos) {
+    // codigo
+
+}
+
+se puede declarar una function con Console.log dentro del código para ser impresa en la consola por una única vez o también podemos definir una variable constante como por ejemplo un valor que no cambia como es el caso del número pi, cuyo valor invariable es 3, 141592.
+
+> const pi = function (3,141592) {
+    // codigo
+}
+
+Argumentos: Son los valores que le indicamos a una función, van entre paréntesis y pueden variar según los parametros que queramos que tenga dicha función.Por ejmplo:
+
+> function presentar (nombre, edad){
+}
+
+Return: Si usamos la declaración return dentro de nuestra función, podemos finalizar la ejecución y hacer que la operación devuelva el valor que queramos.Por ejemplo:
+
+> function siRetorna(){
+    return 13
+    }
+< undefined
+> siRetorna();
+< 13
+
+Declaraciones (if)
+Una declaración es una instrucción. if es la declaración de toma de decisión más simple, si la condición es true, esta se ejecutará, si de lo contrario es false, se ejecutará la instrucción condicional 'else'. Por ejemplo:
+
+ >   if(edad>30) {
+    console.log('viejo')
+    } else if (edad > 20) {
+    console.log('joven')
+    } else {
+    console.log('bebe')
+    }    
+
+Valores booleanos (true, false)
+
+Es un tipo de dato comunmente utilizado en lenguaje de programación basado en la lógica binaria , utilizado comunmente para ejecutar operaciones tomando en cuenta si una condición determinada es verdadera o falsa.Por ejemplo:
+
+>3 === 3
+< true
+
+> if (true){
+    console.log('hola');
+    }
+< undefined
+  hola
+  if (false) {
+    console.log ('chao');
+    }
+< undefined    
