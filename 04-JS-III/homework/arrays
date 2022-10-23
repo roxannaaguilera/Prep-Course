@@ -1,0 +1,57 @@
+Array:
+
+Son listas de elementos que contienen diferentes tipos de datos, como númericos, booleanos o strings. Array significa arreglo y básicamente el array es una función para crear listas.
+
+Estructura de un Array :
+
+  
+         var lista   =    [2,1]
+nombre de la variable   indice entre corchetes
+
+para acceder al último elemento de la matriz podemos utitizar el método .length
+
+         lista.length = 2
+
+para acceder al último array
+
+
+         lista [lista.lenght - 1]
+
+         lista = 1
+
+ Existen métodos importantes para la adición y eliminación de elementos a la matriz tales como:
+
+ .push : al ser invocado agrega un elemento al último lugar de la matriz.
+
+        const lista = [ 'Carlos', 'Maria'] 
+
+        lista.push ('Patricia')
+
+        const lista = ['Carlos' , 'Maria', 'Patricia']
+ 
+ .pop : es una función con la que puedes imprimir y eliminar definitivamente el último elemento de tu arreglo.
+
+       >var str = lista [2] // lo que está en sub 2 guardarlo en la variable str;
+       
+       <undefined
+       
+       >str
+
+       < 'Patricia'
+
+       >lista ['Carlos' , 'Maria', 'Patricia']
+
+       < var str2 = lista.pop();
+
+       >undefined
+
+       <str2
+
+       >
+
+
+
+
+ .shift
+
+ .unshift        
