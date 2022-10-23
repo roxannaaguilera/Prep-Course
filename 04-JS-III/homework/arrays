@@ -47,11 +47,20 @@ para acceder al último array
 
        <str2
 
-       >
+       >'Patricia'
+
+       <lista
+
+       >  [ 'Carlos', 'Maria'] 
+
+De esta manera el elemento queda guardado en la variable str2
+
+       > lista.pop()
+
+De esta manera se van eliminando elementos de la lista desde el último...definitivamente.
 
 
+ .shift : es un método parecido a .pop solo que eliminará el primer elemento de la matriz en vez del útimo.
 
 
- .shift
-
- .unshift        
+ .unshift : tiene la misma función que .push pero adiciona un elemento al inicio de la matriz en lugar de al final .        
