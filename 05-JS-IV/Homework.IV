@@ -1,0 +1,69 @@
+Homework IV / Definiciones:
+
+Objeto: es un conjunto de propiedades.
+
+Propiedades: es la asociacion entre una nombre y un valor.
+
+Ejemplo:
+                name ---> Mario
+var person ---> job  ---> Plumber
+
+//variable: var person
+
+//propiedades: name, job.
+
+//valor: Mario, Plumber.
+
+
+Métodos: a la función cuando pertenenecen a un objeto le diremos método.
+
+var persona = {
+    nombre : ' Jimmy',
+    saludar: function(){                      // Método
+        console.log('Hola, ' + this.nombre);
+    }
+}
+
+Bucle for...in
+
+Debido a que los objetos(a diferencia de las matrices) no tienen indices, el bucle standar que ya hemos usado en los arreglos no es útil para este tipo de operación por lo que usamos un segundo tipo de bucle for llamado "bucle for in"
+Su sintaxis es parecida a la tradicional pero varia en algunos aspectos. Comienza con "for" pero entre parentesis declaramos una variable, seguida de la palabra in y por último el nombre del objeto.
+
+const usuario= {
+    username : 'Juan Perez',
+    password: 'holajuan',
+    favoriteNumber: 24,
+}
+for (let clave in usuario) {
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+Esto arrojará toda la información de la const o variable.
+
+Notación de puntos (dot notation) vs Notación de corchetes (braket notation)
+
+Son maneras de acceder a propiedades, el hecho que diferencia a una forma de la otra es que dot es literal ( no se pueden colocar  variables).
+
+La utilidad de los corchetes para acceder a propiedades es más amplia.
+
+Ejemplo:
+
+Dot Notation:
+
+> toni.nombrePropiedad
+
+Braket Notation:
+
+>var alumnos = [
+    {
+        nombre: ' Emi',
+        edad : 23,
+        hobbies['correr', 'dormir', 'nadar'],
+
+    }
+
+    > alumnos[0][hobbies]
+    <['correr', 'dormir', 'nadar']
+    >alumnos[0][hobbies][1]
+    <'dormir'
